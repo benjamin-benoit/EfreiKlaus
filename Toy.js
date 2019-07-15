@@ -7,7 +7,9 @@ class Toy {
     console.log("Huuuuuuhu!")
   }
 
-  getType() {}
+  getType() {
+    return this.type
+  }
 }
 
 module.exports = Toy;

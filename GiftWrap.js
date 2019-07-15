@@ -1,7 +1,7 @@
 const Packaging = require("./Packaging");
 const Toy = require("./Toy");
 
-class Box extends Packaging {
+class GiftWrap extends Packaging {
   constructor() {
     super();
     this.isOpen = false;
@@ -16,4 +16,4 @@ class Box extends Packaging {
   }
 }
 
-module.exports = Box;
+module.exports = GiftWrap;
