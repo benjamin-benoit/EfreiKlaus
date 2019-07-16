@@ -1,19 +1,19 @@
-import Figurine from './protocol.Figurine'
 import Pony from './class.Pony'
-import DragonBall from './class.DragonBall'
-import Toy from './protocol.Toy'
+import DragonBall , {DBHeroes} from './class.DragonBall'
 import Elf from './class.Elf'
 import Box from './class.Box'
 import GiftWrap from './class.GiftWrap'
 
+// Step #1
 console.log("--- STEP #1 ---")
 
 var pony = new Pony()
-var goku = new DragonBall.DragonBall(DragonBall.DBHeroes.SANGOKU)
+var goku = new DragonBall(DBHeroes.SANGOKU)
 
 pony.isMoved()
 goku.isMoved()
 
+// Step #2
 console.log('--- STEP #2 ---')
 
 var majdi = new Elf('makiboto')
