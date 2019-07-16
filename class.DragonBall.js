@@ -26,6 +26,4 @@ export default class DragonBall extends Figurine {
     isMoved() {
       console.log("Kamé Hamé Ha!")
     }
-  
-    getType() {}
   }
