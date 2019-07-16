@@ -1,13 +1,13 @@
-const Figurine = require('./Figurine')
+import Figurine from "./protocol.Figurine"
   
-const DBHeroes = {
+export const DBHeroes = {
     SANGOKU: 'SANGOKU',
     BEJITA: 'BEJITA',
     BEERUS: 'BEERUS',
     KAMESENNIN: 'KAMESENNIN'
 }
 
-class DragonBall extends Figurine {
+export default class DragonBall extends Figurine {
 
     #_character = DBHeroes;
 
@@ -29,5 +29,3 @@ class DragonBall extends Figurine {
   
     getType() {}
   }
-  
-  module.exports = {DragonBall, DBHeroes};

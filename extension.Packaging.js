@@ -1,6 +1,4 @@
-const Toy = require('./Toy')
-
-class Packaging {
+export default class Packaging {
     constructor() {
         this.isOpen = false
         this.toy = null
@@ -13,5 +11,3 @@ class Packaging {
         this.isOpen = false
     }
 }
-
-module.exports = Packaging

@@ -1,6 +1,6 @@
-const Toy = require("./Toy");
+import Toy from "./protocol.Toy"
 
-class Pony extends Toy {
+export default class Pony extends Toy {
   #_nb = 1;
 
   constructor() {
@@ -13,5 +13,3 @@ class Pony extends Toy {
     this.#_nb++;
   }
 }
-
-module.exports = Pony;

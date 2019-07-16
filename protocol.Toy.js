@@ -1,4 +1,4 @@
-class Toy {
+export default class Toy {
   constructor(type) {
     this.type = type;
   }
@@ -11,5 +11,3 @@ class Toy {
     return this.type
   }
 }
-
-module.exports = Toy;

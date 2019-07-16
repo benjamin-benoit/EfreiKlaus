@@ -1,10 +1,10 @@
-const Figurine = require('./Figurine')
-const Pony = require('./Pony')
-const DragonBall = require('./DragonBall')
-const Toy = require('./Toy')
-const Elf = require('./Elf')
-const Box = require('./Box')
-const GiftWrap = require('./GiftWrap')
+import Figurine from './protocol.Figurine'
+import Pony from './class.Pony'
+import DragonBall from './class.DragonBall'
+import Toy from './protocol.Toy'
+import Elf from './class.Elf'
+import Box from './class.Box'
+import GiftWrap from './class.GiftWrap'
 
 console.log("--- STEP #1 ---")
 

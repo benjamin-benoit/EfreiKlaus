@@ -1,8 +1,6 @@
-const Toy = require('./Toy')
-const Packaging = require('./Packaging')
-const GiftWrap = require('./GiftWrap')
+import GiftWrap from "./class.GiftWrap"
 
-class Elf {
+export default class Elf {
     constructor(nickname) {
         this.nickname = nickname
     }
@@ -37,5 +35,3 @@ class Elf {
         }
     }
 }
-
-module.exports = Elf
